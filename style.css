@@ -27,6 +27,7 @@ header.barre{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.95);b
 header.barre .conteneur{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:60px;flex-wrap:wrap}
 .logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;color:var(--marine);text-decoration:none}
 .logo img{width:34px;height:34px;border-radius:8px}
+.logo b{color:var(--orange);font-weight:800} .logo b span{color:var(--marine)}
 nav ul{list-style:none;margin:0;padding:0;display:flex;gap:4px;flex-wrap:wrap}
 nav a{display:block;padding:8px 10px;border-radius:8px;text-decoration:none;color:var(--texte-2);font-size:15px;font-weight:600}
 nav a:hover{background:var(--fond-2);color:var(--marine)}
