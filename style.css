@@ -66,6 +66,10 @@ nav a:hover{background:var(--fond-2);color:var(--marine)}
 .captures figure{margin:0}
 .captures img{border-radius:14px;border:1px solid var(--trait);box-shadow:0 6px 20px rgba(30,32,84,.12)}
 .captures figcaption{font-size:13px;color:var(--texte-2);text-align:center;margin-top:6px}
+.captures.quatre{grid-template-columns:repeat(2,1fr)}
+@media (min-width:560px){.captures.quatre{grid-template-columns:repeat(4,1fr)}}
+.reflexion .matieres li::before{background:#15aabf}
+.version.reflexion{border-left-color:#15aabf}
 .bientot{font-size:14px;color:var(--texte-2);margin-top:10px}
 
 /* Grille de fonctions */
